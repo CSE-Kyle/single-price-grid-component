@@ -1,0 +1,132 @@
+html {
+  box-sizing: border-box;
+  font-weight: 900;
+  font-size: 10px;
+  color: var(--black);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.item {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: #e6eff5;
+  font-family: Karla;
+  font-size: 1rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(8, 100px);
+  grid-template-rows: repeat(6, 100px);
+  place-content: center;
+  overflow: hidden;
+}
+
+.item1 {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  grid-column: span 8;
+  grid-row: span 3;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.item2 {
+  background-color: #2ab3b1;
+  grid-column: 1 / span 4;
+  grid-row: span 6;
+  border-radius: 0px 0px 0px 10px;
+}
+
+.item3 {
+  background-color: #13cbc8;
+  grid-column: span 4;
+  grid-row: span 6;
+  border-radius: 0px 0px 10px 0px;
+}
+
+.main-text {
+  font-size: 3rem;
+  color: #2ab3b1;
+  font-weight: 700;
+}
+
+.secondary-text {
+  color: #c0df33;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.description {
+  color: #9aa7be;
+  line-height: 1;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.price-text {
+  font-size: 3rem;
+}
+
+.sub-text {
+  margin-left: 10px;
+  font-weight: 400;
+}
+
+.sub-wrapper {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 1.5rem;
+  position: relative;
+  top: -20%;
+}
+
+.button {
+  box-shadow: 0px 10px 25px 3px rgba(0, 0, 0, 0.24);
+  background-color: #c0df33;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  position: relative;
+  top: -5rem;
+}
+
+.benefits-section {
+  position: relative;
+  top: -17%;
+  right: 17%;
+}
+
+.benefits-section > ol > li {
+  list-style-type: none;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}

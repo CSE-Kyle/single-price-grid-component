@@ -1,0 +1,46 @@
+@media only screen and (max-width: 541px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wrapper-text {
+    padding: 20px;
+  }
+
+  .main-text {
+    font-size: 2rem;
+  }
+
+  .secondary-text {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1.5rem;
+  }
+
+  .button {
+    position: relative;
+    top: -1em;
+    width: 29rem;
+  }
+
+  .benefits-section {
+    margin-top: 3rem;
+    right: 8rem;
+  }
+
+  .item2 {
+    border-radius: 0px 0px 0px 0px;
+  }
+
+  .item3 {
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .item3 h3 {
+    position: relative;
+    right: 4rem;
+  }
+}
