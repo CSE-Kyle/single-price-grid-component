@@ -71,7 +71,7 @@ how to make a website responsive by the use of "media queries" to style how the 
 
 ## Author
 
-- Website - [Kyle Deguzman](https://www.your-site.com)
+- GitHub - [Kyle Deguzman](https://github.com/CSE-Kyle)
 - Frontend Mentor - [@CSE-Kyle](https://www.frontendmentor.io/profile/CSE-Kyle)
 - Linkedin - [Kyle Deguzman](https://www.linkedin.com/in/kyle-deguzman-aa8a2b194/)
 
