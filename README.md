@@ -37,8 +37,8 @@ Mobile :
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub repo](https://github.com/CSE-Kyle/single-price-grid-component)
+- Live Site URL: [Netlify.com live site](https://curious-bavarois-35446e.netlify.app/)
 
 ## My process
 
