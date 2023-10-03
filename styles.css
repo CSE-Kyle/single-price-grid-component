@@ -1,22 +1,21 @@
 html {
+  font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  font-weight: 900;
-  font-size: 10px;
-  color: var(--black);
+  font-family: Karla;
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
   background-color: #e6eff5;
+  min-height: 100vh;
   font-family: Karla;
-  font-size: 1rem;
-}
-
-*, *::before, *::after {
-  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .attribution {
@@ -28,50 +27,30 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
-.item {
+.content {
   display: grid;
-  justify-content: center;
-  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.item1 {
+  background-color: #FFFFFF;
+  width: 100%;
+  max-width: 40.3rem;
+  padding: 32px;
+}
+
+.header-slogan {
+  font-size: 1.5rem;
+  color: #2AB3B1;
 }
 
 .secondary-text {
-  color: #c0df33;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-  font-weight: 400;
-  font-size: 2rem;
+  font-size: 1.13rem;
+  color: #C0DF33;
 }
 
 .description {
-  color: #9aa7be;
-  line-height: 1;
-  font-weight: 400;
-  font-size: 2rem;
+  color: #9AA7BE;
+  line-height: 2;
 }
-
-h3 {
-  color: #ffffff;
-  font-size: 2rem;
-}
-
-.price-text {
-  font-size: 3rem;
-}
-
-.sub-text {
-  margin-left: 10px;
-  font-weight: 400;
-}
-
-/* .button {
-  box-shadow: 0px 10px 25px 3px rgba(0, 0, 0, 0.24);
-  background-color: #c0df33;
-  color: #ffffff;
-  cursor: pointer; 
-  text-decoration: none;
-  text-align: center;
-  border: none;
-  padding: 15px;
-  border-radius: 5px;
-  font-size: 1.5rem;
-} */
