@@ -21,22 +21,28 @@ body {
 
 .content {
   display: grid;
-  grid-template-columns: auto auto auto;
   gap: 10px;
-  /* max-width: 40.3rem; */
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+    "item1 item1 item1"
+    "item2 item3"
+    "item2 item3"
+  ;
 }
 
 .item1 {
   background-color: #FFFFFF;
-  padding: 2rem;
+  grid-area: item1;
 }
 
 .item2 {
   background-color: #2AB3B1;
+  grid-area: item2;
 }
 
 .item3 {
   background-color: #35d8d6;
+  grid-area: item3;
 }
 
 .header-slogan {
