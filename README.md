@@ -46,32 +46,48 @@ Mobile :
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
+- CSS Flexbox
 - CSS Grid
-- CSS
+- Media Queries 
 
 ### What I learned :
 
-how to make a website responsive by the use of "media queries" to style how the structure of a website should look depending on its screen size.
+how to make a website responsive by the use of "media queries" to style how the structure of a website should look depending on its screen size. :
 ```css
-  @media only screen and (max-width: 541px) {
+  @media only screen and (max-width: 425px) {
   }
+```
+positioning elements on a webpage using grid-template-areas. : 
+```css
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+    "item1 item1"
+    "item2 item3"
+  ;
+}
 ```
 
 ### Continued development
 
-- How to better position/align elements in an efficient way and not over using too many properties and creating too many classes to accomplish certain tasks.
+- How to better position/align elements in an efficient way and not over using too many properties and creating too many unnecessary classes/id's.
 - setting font size for text by using rem to keep consistent font styling. 
+- setting a default css reset before starting any project.
 
 ### Useful resources
 
 - [w3schools](https://www.w3schools.com/) - The main resource that I've used to figure out how to style and position elements on the webpage.
 
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout) - another useful resource that's more in-depth of its documentation. Providing references, guides, specifications, and more.
+
 - [Wes Bos CSS Grid](https://cssgrid.io/) - A video series that has helped me be more comfortable of using CSS Grid, I was very rusty on grid before jumping into watching the video series and it has aided me a lot to have a better understanding of how grid works and how to use it.
+
+- [Youtube](https://www.youtube.com/) - For me to visually see how other developers add certain properties to specific classes/selectors to get a better understanding and visualization of how each css property works. 
 
 ## Author
 
-- GitHub - [Kyle Deguzman](https://github.com/CSE-Kyle)
+- GitHub - [Kyle Deguzman (CSE-Kyle)](https://github.com/CSE-Kyle)
 - Frontend Mentor - [@CSE-Kyle](https://www.frontendmentor.io/profile/CSE-Kyle)
 - Linkedin - [Kyle Deguzman](https://www.linkedin.com/in/kyle-deguzman-aa8a2b194/)
 
@@ -81,3 +97,4 @@ Big thanks to the following people for their assistance :
 
 - Grace-Snow (Moderator of Frontend Mentor)
 - AlexKMarshall (Moderator of Frontend Mentor)
+- The Frontend Mentor community 🙌🏼
