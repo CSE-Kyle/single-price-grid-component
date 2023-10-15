@@ -1,4 +1,4 @@
-@media only screen and (max-width: 500px) and (max-width: 600px) {
+@media only screen and (min-width: 500px) and (max-width: 600px) {
   .content {
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 375px) and (max-width: 425px) {
   .content {
     display: flex;
     flex-direction: column;
